@@ -1,6 +1,6 @@
-@import 'normalize.css/normalize.css';
-/* @import './lib/bootstrap.css'; */
+@import './lib/normalize.css';
+@import './lib/stroke-gap-icons.css';
 @import './fonts.css';
-@import './header.css';
+@import './main.css';
 @import './media.css';
 

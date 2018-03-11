@@ -1,56 +1,24 @@
 /* https://css-tricks.com/snippets/css/using-font-face/#article-header-id-0 */
 @font-face {
-  font-family: 'PFCentroSlabProBold';
-  src: url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/PFCentroSlabProBold/PFCentroSlabProBold.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: bold;
-       font-style: normal;
+  font-family: 'Jaapokkisubtract';
+  src: url('../fonts/JaapokkisubtractRegular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/JaapokkisubtractRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/JaapokkisubtractRegular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/JaapokkisubtractRegular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/JaapokkisubtractRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/JaapokkisubtractRegular#svgFontName') format('svg'); /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-  font-family: 'PFCentroSlabProMedium';
-  src: url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/PFCentroSlabProMedium/PFCentroSlabProMedium.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: normal;
-       font-style: normal;
-}
-
-@font-face {
-  font-family: 'RalewayBold';
-  src: url('../fonts/RalewayBold/RalewayBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/RalewayBold/RalewayBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/RalewayBold/RalewayBold.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: bold;
-       font-style: normal;
-}
-
-@font-face {
-  font-family: 'RalewayRegular';
-  src: url('../fonts/RalewayRegular/RalewayRegular.eot') format('eot'), /* IE9 Compat Modes */
-       url('../fonts/RalewayRegular/RalewayRegular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/RalewayRegular/RalewayRegular.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: normal;
-       font-style: normal;
-}
-
-@font-face {
-  font-family: 'RalewaySemiBold';
-  src: url('../fonts/RalewaySemiBold/RalewaySemiBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/RalewaySemiBold/RalewaySemiBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/RalewaySemiBold/RalewaySemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: bold;
-       font-style: normal;
-}
-
-@font-face {
-  font-family: 'RobotoBold';
-  src: url('../fonts/RobotoBold/RobotoBold.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/RobotoBold/RobotoBold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/RobotoBold/RobotoBold.ttf')  format('truetype'); /* Safari, Android, iOS */
-       font-weight: bold;
-       font-style: normal;
+  font-family: "RobotoRegular";
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+  url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+  url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 
